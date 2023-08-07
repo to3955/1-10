@@ -66,26 +66,38 @@ footer {
 }
 
 
-.step-box{
-  color:black;
-}
 
 @media screen and (max-width: 768px) {
+  
+  header {
+    width: 100%;
+  }
+  
+  main {
+    width: 100%;
+    display: block;
+  }
+  
+  .step-box{
+   width:100%;
+  }
+  
+
   .step-img1 {
     width: 100%; 
-    margin:0 auto
+    
   }
-}
-@media screen and (max-width: 768px) {
-  .step-img2 {
-    width: 100%; 
-     margin:0 auto
-  }
-}
 
-@media screen and (max-width: 768px) {
+ .step-imag2{
+    width:100%;
+ }
+
   .step-img3 {
     width: 100%; 
-    margin:0 auto
   }
+  
+  fotter{
+    width:100%;
+  }
+  
 }
